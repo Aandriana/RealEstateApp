@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200604140844_FirstMigration.cs" />
+    <Compile Remove="Migrations\20200604140844_FirstMigration.Designer.cs" />
+    <Compile Remove="Migrations\20200604150612_RoleMigration.cs" />
+    <Compile Remove="Migrations\20200604150612_RoleMigration.Designer.cs" />
+    <Compile Remove="Migrations\20200604151437_roleIdMigration.cs" />
+    <Compile Remove="Migrations\20200604151437_roleIdMigration.Designer.cs" />
+    <Compile Remove="Migrations\20200604152107_roleIdMigration.cs" />
+    <Compile Remove="Migrations\20200604152107_roleIdMigration.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Microsoft.AspNet.Identity.Core" Version="2.2.3" />
+    <PackageReference Include="Microsoft.AspNet.Identity.EntityFramework" Version="2.2.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.4" />
+  </ItemGroup>
+
+</Project>
